@@ -21,6 +21,10 @@
 		833127A11CC15AD100793B19 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833127A01CC15AD100793B19 /* ExtensionDelegate.swift */; };
 		833127A31CC15AD100793B19 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833127A21CC15AD100793B19 /* NotificationController.swift */; };
 		833127A51CC15AD100793B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833127A41CC15AD100793B19 /* Assets.xcassets */; };
+		83AC76831CC3FB79000B73BE /* menuPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC76821CC3FB79000B73BE /* menuPizza.swift */; };
+		83AC768B1CC4030F000B73BE /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC768A1CC4030F000B73BE /* Pizza.swift */; };
+		83AC768D1CC40E67000B73BE /* Cocina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC768C1CC40E67000B73BE /* Cocina.swift */; };
+		83AC768F1CC40EB4000B73BE /* CocinarPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AC768E1CC40EB4000B73BE /* CocinarPizza.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +98,10 @@
 		833127A21CC15AD100793B19 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		833127A41CC15AD100793B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		833127A61CC15AD100793B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83AC76821CC3FB79000B73BE /* menuPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuPizza.swift; sourceTree = "<group>"; };
+		83AC768A1CC4030F000B73BE /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		83AC768C1CC40E67000B73BE /* Cocina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cocina.swift; sourceTree = "<group>"; };
+		83AC768E1CC40EB4000B73BE /* CocinarPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocinarPizza.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +192,10 @@
 				833127A41CC15AD100793B19 /* Assets.xcassets */,
 				833127A61CC15AD100793B19 /* Info.plist */,
 				8331279C1CC15AD100793B19 /* Supporting Files */,
+				83AC76821CC3FB79000B73BE /* menuPizza.swift */,
+				83AC768A1CC4030F000B73BE /* Pizza.swift */,
+				83AC768C1CC40E67000B73BE /* Cocina.swift */,
+				83AC768E1CC40EB4000B73BE /* CocinarPizza.swift */,
 			);
 			path = "PizzaWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -376,8 +388,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				833127A31CC15AD100793B19 /* NotificationController.swift in Sources */,
+				83AC76831CC3FB79000B73BE /* menuPizza.swift in Sources */,
+				83AC768D1CC40E67000B73BE /* Cocina.swift in Sources */,
 				833127A11CC15AD100793B19 /* ExtensionDelegate.swift in Sources */,
+				83AC768B1CC4030F000B73BE /* Pizza.swift in Sources */,
 				8331279F1CC15AD100793B19 /* InterfaceController.swift in Sources */,
+				83AC768F1CC40EB4000B73BE /* CocinarPizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,6 +655,7 @@
 				833127AB1CC15AD100793B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833127AD1CC15AD100793B19 /* Build configuration list for PBXNativeTarget "PizzaWatch WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -647,6 +664,7 @@
 				833127AF1CC15AD100793B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833127B11CC15AD100793B19 /* Build configuration list for PBXNativeTarget "PizzaWatch" */ = {
 			isa = XCConfigurationList;
@@ -655,6 +673,7 @@
 				833127B31CC15AD100793B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833127B41CC15AD100793B19 /* Build configuration list for PBXNativeTarget "PizzaWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +682,7 @@
 				833127B61CC15AD100793B19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
